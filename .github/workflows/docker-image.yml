@@ -2,7 +2,8 @@ name: Auto deploy Docker ReactJS
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
